@@ -14,6 +14,13 @@ interface ConfigurationGetterInterface extends ConfigurationServiceInterface
     */
     public function get(string $key): bool|float|int|string|null;
 
+    /**
+     * Return a list of values.
+     *
+     * @return array<int,bool|float|int|string|null>
+     */
+    public function getArray(string $key): array;
+
     public function getBool(string $key): bool;
 
     public function getString(string $key): string;

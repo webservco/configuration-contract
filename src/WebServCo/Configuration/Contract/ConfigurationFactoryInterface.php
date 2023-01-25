@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace WebServCo\ConfigurationContract;
+namespace WebServCo\Configuration\Contract;
 
 interface ConfigurationFactoryInterface
 {
